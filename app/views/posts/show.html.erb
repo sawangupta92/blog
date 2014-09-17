@@ -1,0 +1,9 @@
+<p>
+  title is: <%= @post.title %>
+</p>
+<p>
+  content is: <%= @post.text %>
+</p>
+<%= link_to 'show all', posts_path %>
+<%= link_to 'Back', posts_path %>
+<%= link_to 'Edit', edit_post_path(@post) %>
